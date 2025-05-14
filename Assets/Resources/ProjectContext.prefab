@@ -74,3 +74,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c867aa17ed37713499668cd7266cb2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _figureSpawnerConfig: {fileID: 11400000, guid: f38005d14bfd93945b01126b6050c6e4, type: 2}
+  _coroutinePerformerPrefab: {fileID: 3736826805073739572, guid: f15da5a470188d745b7cb0dc8bc507a7, type: 3}
+  _startButtonPrefab: {fileID: 1720384527480706176, guid: 4a19919267180a6478f5435ffe2feff3, type: 3}
