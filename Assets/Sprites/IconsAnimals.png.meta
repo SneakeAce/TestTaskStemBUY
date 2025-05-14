@@ -1,0 +1,1280 @@
+fileFormatVersion: 2
+guid: ffd719cb2efbfd04eb6873b25e9e65c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5280916368754999158
+    second: IconsAnimals_0
+  - first:
+      213: 8870179501328105444
+    second: IconsAnimals_1
+  - first:
+      213: -2766627540547859731
+    second: IconsAnimals_2
+  - first:
+      213: -8892792202028006700
+    second: IconsAnimals_3
+  - first:
+      213: -5525056693917415753
+    second: IconsAnimals_4
+  - first:
+      213: 6115531763393530315
+    second: IconsAnimals_5
+  - first:
+      213: -2589548737990685713
+    second: IconsAnimals_6
+  - first:
+      213: 5184731397923930500
+    second: IconsAnimals_7
+  - first:
+      213: -5534158452867385247
+    second: IconsAnimals_8
+  - first:
+      213: -7175425370037852882
+    second: IconsAnimals_9
+  - first:
+      213: 6201441160180029819
+    second: IconsAnimals_10
+  - first:
+      213: 4516706536450831803
+    second: IconsAnimals_11
+  - first:
+      213: -6277758685081414254
+    second: IconsAnimals_12
+  - first:
+      213: -9215713117313110727
+    second: IconsAnimals_13
+  - first:
+      213: -1029660927510413583
+    second: IconsAnimals_14
+  - first:
+      213: -7485175038310540313
+    second: IconsAnimals_15
+  - first:
+      213: -2100675400614928273
+    second: IconsAnimals_16
+  - first:
+      213: 628129133358963555
+    second: IconsAnimals_17
+  - first:
+      213: -2439248349552237337
+    second: IconsAnimals_18
+  - first:
+      213: -1367389172525402947
+    second: IconsAnimals_19
+  - first:
+      213: -3125265670340335369
+    second: IconsAnimals_20
+  - first:
+      213: -1094647395985899237
+    second: IconsAnimals_21
+  - first:
+      213: 1508314185889650039
+    second: IconsAnimals_22
+  - first:
+      213: 941367147957492100
+    second: IconsAnimals_23
+  - first:
+      213: 6706377693933355612
+    second: IconsAnimals_24
+  - first:
+      213: 6061500582030997402
+    second: IconsAnimals_25
+  - first:
+      213: 3157406193052212607
+    second: IconsAnimals_26
+  - first:
+      213: 8180057782842566456
+    second: IconsAnimals_27
+  - first:
+      213: -7345989705035104580
+    second: IconsAnimals_28
+  - first:
+      213: 8405694355602921593
+    second: IconsAnimals_29
+  - first:
+      213: -1346270125442963454
+    second: IconsAnimals_30
+  - first:
+      213: -7760451345780112537
+    second: IconsAnimals_31
+  - first:
+      213: -5392821496029856994
+    second: IconsAnimals_32
+  - first:
+      213: 5586210632090363899
+    second: IconsAnimals_33
+  - first:
+      213: -1953048870030794624
+    second: IconsAnimals_34
+  - first:
+      213: -3023113757004211034
+    second: IconsAnimals_35
+  - first:
+      213: -7708018680984661975
+    second: IconsAnimals_36
+  - first:
+      213: 4227746000058395531
+    second: IconsAnimals_37
+  - first:
+      213: -7618372390939911774
+    second: IconsAnimals_38
+  - first:
+      213: 4495545114844489736
+    second: IconsAnimals_39
+  - first:
+      213: -3405475720983842351
+    second: IconsAnimals_40
+  - first:
+      213: 6006624674020027589
+    second: IconsAnimals_41
+  - first:
+      213: 4564814536743982537
+    second: IconsAnimals_42
+  - first:
+      213: -1108229268297890099
+    second: IconsAnimals_43
+  - first:
+      213: -8851456565818267574
+    second: IconsAnimals_44
+  - first:
+      213: 4319104271130248621
+    second: IconsAnimals_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IconsAnimals_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 880
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8000d7ca8a66b6b0800000000000000
+      internalID: -5280916368754999158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 880
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4effc9e9245391b70800000000000000
+      internalID: 8870179501328105444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 879
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea05dbf8e6fa99d0800000000000000
+      internalID: -2766627540547859731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 874
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2c1c8bb94769480800000000000000
+      internalID: -8892792202028006700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 875
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6882bb53e0353b0800000000000000
+      internalID: -5525056693917415753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 879
+        width: 95
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc980b1ccbbbed450800000000000000
+      internalID: 6115531763393530315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 878
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb018f8423101cd0800000000000000
+      internalID: -2589548737990685713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 747
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481021d8cbdd3f740800000000000000
+      internalID: 5184731397923930500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 742
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1683d165538b233b0800000000000000
+      internalID: -5534158452867385247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 739
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25619a94a4cb6c90800000000000000
+      internalID: -7175425370037852882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 741
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b795408e0e1ff0650800000000000000
+      internalID: 6201441160180029819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 746
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb536d31aa09eae30800000000000000
+      internalID: 4516706536450831803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_12
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 741
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2955916acbbe0e8a0800000000000000
+      internalID: -6277758685081414254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 742
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93de4aa2fb53b1080800000000000000
+      internalID: -9215713117313110727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 610
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe74a087d8e5b1f0800000000000000
+      internalID: -1029660927510413583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 611
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb11e7f5f05f1890800000000000000
+      internalID: -7485175038310540313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 609
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6022fd5ad6e8d2e0800000000000000
+      internalID: -2100675400614928273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 606
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b5fea6e1097b800800000000000000
+      internalID: 628129133358963555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 604
+        width: 99
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e42bfdbc8c062ed0800000000000000
+      internalID: -2439248349552237337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_19
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 609
+        width: 105
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db478e5dace060de0800000000000000
+      internalID: -1367389172525402947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_20
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 609
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f824a26e63d0a4d0800000000000000
+      internalID: -3125265670340335369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 470
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1144f73ef70fc0f0800000000000000
+      internalID: -1094647395985899237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 479
+        width: 101
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77592abb2cb9ee410800000000000000
+      internalID: 1508314185889650039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_23
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 479
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4899a39fe68601d00800000000000000
+      internalID: 941367147957492100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 465
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5240801bf6d11d50800000000000000
+      internalID: 6706377693933355612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 466
+        width: 103
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97f7c50aa6ce1450800000000000000
+      internalID: 6061500582030997402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_26
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 470
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dde74343c51db20800000000000000
+      internalID: 3157406193052212607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_27
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 468
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8372084b637658170800000000000000
+      internalID: 8180057782842566456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 349
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeb4b3b84dcd0a90800000000000000
+      internalID: -7345989705035104580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 357
+        width: 106
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978d73c2b7607a470800000000000000
+      internalID: 8405694355602921593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_30
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 364
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20860492476115de0800000000000000
+      internalID: -1346270125442963454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 349
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763031e1e965d4490800000000000000
+      internalID: -7760451345780112537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_32
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 343
+        width: 91
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bbc08fb69d825b0800000000000000
+      internalID: -5392821496029856994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_33
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 348
+        width: 106
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7a14e09f4368d40800000000000000
+      internalID: 5586210632090363899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_34
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 343
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08026d0866065e4e0800000000000000
+      internalID: -1953048870030794624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 209
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acda2e1e0ebb06d0800000000000000
+      internalID: -3023113757004211034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_36
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 209
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92095d539dd970590800000000000000
+      internalID: -7708018680984661975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_37
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 208
+        width: 105
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b2f066698fbaa30800000000000000
+      internalID: 4227746000058395531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_38
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 216
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9126f9caa164690800000000000000
+      internalID: -7618372390939911774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_39
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 216
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8086c0aa672636e30800000000000000
+      internalID: 4495545114844489736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_40
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 213
+        width: 92
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d17a8fefd15db0d0800000000000000
+      internalID: -3405475720983842351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_41
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 213
+        width: 93
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc6f0a0151db5350800000000000000
+      internalID: 6006624674020027589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 78
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c51a20c2aa795f30800000000000000
+      internalID: 4564814536743982537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 77
+        width: 106
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6c9652a57ce90f0800000000000000
+      internalID: -1108229268297890099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 69
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a486a91862f492580800000000000000
+      internalID: -8851456565818267574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconsAnimals_45
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 75
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da54794737a80fb30800000000000000
+      internalID: 4319104271130248621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
