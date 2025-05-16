@@ -1,11 +1,10 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using Zenject;
 
 public class GlobalInstaller : MonoInstaller
 {
     // оепедекюрэ!!!!
-    [SerializeField] private PlayerInput _playerInput;
-    [SerializeField] private FigureSpawnerConfig _figureSpawnerConfig;
     [SerializeField] private CoroutinePerformer _coroutinePerformerPrefab;
     [SerializeField] private StartGameButton _startButtonPrefab;
 
@@ -14,29 +13,12 @@ public class GlobalInstaller : MonoInstaller
         BindPlayerInput();
         BindCoroutinePerformer();
 
-        BindFigureManagers();
-
         BindStartButton();
     }
 
     private void BindPlayerInput()
     {
-        Container.Bind<PlayerInput>()
-            .FromInstance(_playerInput)
-            .AsSingle();
-    }
-
-    private void BindFigureManagers()
-    {
-        Container.Bind<FigureSpawnerConfig>()
-            .FromInstance(_figureSpawnerConfig)
-            .AsSingle();
-
-        Container.Bind<IFactory<Figure, FigureConfig>>()
-            .To<FigureFactory>()
-            .AsSingle();
-
-        Container.Bind<FigureSpawner>().AsSingle();
+        Container.Bind<PlayerInput>().AsSingle();
     }
 
     private void BindCoroutinePerformer()

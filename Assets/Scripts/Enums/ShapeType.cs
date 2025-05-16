@@ -3,7 +3,8 @@ using System;
 [Flags]
 public enum ShapeType
 {
-    Square = 1 << 0,
-    Circle = 1 << 1,
-    Triangle = 1 << 2,
+    None = 1 << 0,
+    Square = 1 << 1,
+    Circle = 1 << 2,
+    Triangle = 1 << 4,
 }
