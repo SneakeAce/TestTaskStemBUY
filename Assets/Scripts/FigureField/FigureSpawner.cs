@@ -30,7 +30,7 @@ public class FigureSpawner
     {
         _figureFactory = actionItemFactory;
 
-        _figureConfigs = config.ActionItemConfigs;
+        _figureConfigs = new List<FigureConfig>(config.BaseFigureConfigs);
         _figureSameTypeCount = config.FigureSameTypeCount;
         _delayBetweenSpawn = config.DelayBetweenSpawn;
 

@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1120649197831328209, guid: 3837d41e0367931469754fc3460753e2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.75
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 1120649197831328209, guid: 3837d41e0367931469754fc3460753e2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.75
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 1120649197831328209, guid: 3837d41e0367931469754fc3460753e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.88
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1120649197831328209, guid: 3837d41e0367931469754fc3460753e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3120061
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1120649197831328209, guid: 3837d41e0367931469754fc3460753e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -110,14 +110,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7429685860240629550, guid: 3837d41e0367931469754fc3460753e2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -3650059184424185042}
+      addedObject: {fileID: 182075150141792558}
   m_SourcePrefab: {fileID: 100100000, guid: 3837d41e0367931469754fc3460753e2, type: 3}
 --- !u!1 &3297447641712925938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7429685860240629550, guid: 3837d41e0367931469754fc3460753e2, type: 3}
   m_PrefabInstance: {fileID: 5393457220478108636}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &-3650059184424185042
+--- !u!114 &182075150141792558
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,6 +126,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3297447641712925938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdb9eead1fb72784aac5982d1539f713, type: 3}
+  m_Script: {fileID: 11500000, guid: 7eff48a164dadf7448a8a152eba5c09b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

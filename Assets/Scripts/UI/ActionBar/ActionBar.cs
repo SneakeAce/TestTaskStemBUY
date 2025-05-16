@@ -23,14 +23,14 @@ public class ActionBar : MonoBehaviour
         _filledSlots = new List<ActionSlot>();
     }
 
-    public void SetFigureToSlot(Figure figure)
+    public void SetFigureToSlot(Figure figure, Camera camera)
     {
         ActionSlot emptySlot = GetEmptySlot();
 
         if (emptySlot == null)
             return;
 
-        emptySlot.SetFigure(figure);
+        emptySlot.SetFigure(figure, camera);
 
         figure.MoveToSlot(emptySlot.CurrentPositionSlot);
 

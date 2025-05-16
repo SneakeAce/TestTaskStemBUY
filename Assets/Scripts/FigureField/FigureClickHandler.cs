@@ -35,7 +35,7 @@ public class FigureClickHandler
             if (figure == null)
                 return;
 
-            _actionBar.SetFigureToSlot(figure);
+            _actionBar.SetFigureToSlot(figure, _mainCamera);
         }
 
     }
