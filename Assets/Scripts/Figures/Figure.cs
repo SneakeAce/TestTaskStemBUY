@@ -1,20 +1,19 @@
-using System;
 using UnityEngine;
 
-public class Figure : MonoBehaviour
+public abstract class Figure : MonoBehaviour
 {
-    private const float DefaultRotationValue = 0;
-
-    private AnimalType _animalType;
-    private ShapeType _shapeType;
-    private Color _color;
-
-    private FigureConfig _config;
-
-    private Rigidbody2D _rigidbody;
-    private Collider2D _collider;
-
-    private bool _isInSlot;
+    protected const float DefaultRotationValue = 0;
+    
+    protected AnimalType _animalType;
+    protected ShapeType _shapeType;
+    protected Color _color;
+    
+    protected FigureConfig _config;
+    
+    protected Rigidbody2D _rigidbody;
+    protected Collider2D _collider;
+    
+    protected bool _isInSlot;
 
     public AnimalType AnimalType => _animalType;
     public ShapeType ShapeType => _shapeType;
@@ -23,7 +22,7 @@ public class Figure : MonoBehaviour
 
     public bool IsInSlot { get => _isInSlot; }
 
-    public void SetComponents(FigureConfig config)
+    public virtual void SetComponents(FigureConfig config)
     {
         _config = config;
 

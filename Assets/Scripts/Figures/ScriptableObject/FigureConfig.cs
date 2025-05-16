@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Configs/FigureConfig")]
 public class FigureConfig : ScriptableObject
 {
     [field: SerializeField] public GameObject Prefab { get; private set; }
