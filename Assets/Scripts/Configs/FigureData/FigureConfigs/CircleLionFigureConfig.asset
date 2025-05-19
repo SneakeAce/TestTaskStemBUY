@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: CircleLionFigureConfig
   m_EditorClassIdentifier: 
   <Prefab>k__BackingField: {fileID: 3983739259451299282, guid: 8687bcfbb8fcfa542ad5fb0eab8b6232, type: 3}
+  <AvailableFigureType>k__BackingField: -1
   <AnimalType>k__BackingField: 2
   <ShapeType>k__BackingField: 2
   <Color>k__BackingField: {r: 1, g: 0.8901961, b: 0, a: 1}

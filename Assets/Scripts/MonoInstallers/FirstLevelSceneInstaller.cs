@@ -28,7 +28,7 @@ public class FirstLevelSceneInstaller : MonoInstaller
             .FromInstance(_figureSpawnerConfig)
             .AsSingle();
 
-        Container.Bind<IFactory<Figure, FigureConfig>>()
+        Container.Bind<IFigureFactory<Figure, FigureConfig>>()
             .To<FigureFactory>()
             .AsSingle();
 

@@ -1,5 +1,3 @@
-using System.Diagnostics;
-
 public class HeavyFigure : Figure
 {
     public override void SetComponents(FigureConfig config)
@@ -8,7 +6,10 @@ public class HeavyFigure : Figure
 
         UnityEngine.Debug.Log("HeavyFigure SetComponents");
 
-        if (config is HeavyFigureConfig heavyFigureConfig)
-            _rigidbody.mass = heavyFigureConfig.Mass;
+        //if (config is SpecialFigureConfig heavyFigureConfig)
+        //{
+        //    _rigidbody.mass = heavyFigureConfig.Mass;
+        //    _rigidbody.gravityScale = heavyFigureConfig.GravityScale;
+        //}
     }
 }

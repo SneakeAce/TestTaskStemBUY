@@ -1,26 +1,33 @@
+using System;
 using UnityEngine;
 
 public abstract class Figure : MonoBehaviour
 {
     protected const float DefaultRotationValue = 0;
-    
+
+    protected FigureType _figureType;
     protected AnimalType _animalType;
     protected ShapeType _shapeType;
     protected Color _color;
-    
+
+    protected SpecialFigureConfig _specialConfig;
     protected FigureConfig _config;
     
     protected Rigidbody2D _rigidbody;
     protected Collider2D _collider;
     
     protected bool _isInSlot;
+    protected bool _isStuck;
 
+    public FigureType FigureType => _figureType; 
     public AnimalType AnimalType => _animalType;
     public ShapeType ShapeType => _shapeType;
     public Color Color => _color;
     public FigureConfig FigureConfig => _config;
+    public bool IsInSlot => _isInSlot;
+    public bool IsStuck { get => _isStuck; set => _isStuck = value; }
 
-    public bool IsInSlot { get => _isInSlot; }
+    public event Action DetachFigure;
 
     public virtual void SetComponents(FigureConfig config)
     {
@@ -32,6 +39,8 @@ public abstract class Figure : MonoBehaviour
         SetFigureProperties();
     }
 
+    public void SetSpecialConfig(SpecialFigureConfig specialConfig) => _specialConfig = specialConfig;
+
     public void MoveToSlot(Vector3 positionToMove)
     {
         _isInSlot = true;
@@ -40,6 +49,8 @@ public abstract class Figure : MonoBehaviour
         _rigidbody.bodyType = RigidbodyType2D.Static;
         transform.position = positionToMove;
         transform.rotation = Quaternion.Euler(DefaultRotationValue, DefaultRotationValue, DefaultRotationValue);
+
+        DetachFigure?.Invoke();
     }
 
     public void DestroyFigure()
@@ -51,9 +62,59 @@ public abstract class Figure : MonoBehaviour
 
     private void SetFigureProperties()
     {
+        _figureType = SetFigureType();
+
         _animalType = _config.AnimalType;
         _shapeType = _config.ShapeType;
         _color = _config.Color;
+    }
+
+    private FigureType SetFigureType()
+    {
+        if (_specialConfig == null)
+            return FigureType.BaseFigure;
+
+        if (_specialConfig.SpecialFigureType == FigureType.HeavyFigure)
+        {
+            if (_specialConfig is HeavyFigureConfig heavyFigureConfig)
+            {
+                _specialConfig = heavyFigureConfig;
+                _rigidbody.mass = heavyFigureConfig.Mass;
+                _rigidbody.gravityScale = heavyFigureConfig.GravityScale;
+            }
+
+            Debug.Log($"This {this.gameObject.name} is HeavyFigure");
+
+            return _specialConfig.SpecialFigureType;
+        }
+        else if (_specialConfig.SpecialFigureType == FigureType.FrozenFigure)
+        {
+            //
+            // Доделать
+
+            Debug.Log($"This {this.gameObject.name} is FrozenFigure");
+
+            return _specialConfig.SpecialFigureType;
+        }
+        else if (_specialConfig.SpecialFigureType == FigureType.StickyFigure)
+        {
+            if (_specialConfig is StickyFigureConfig stickyFigureConfig)
+            {
+                _specialConfig = stickyFigureConfig;
+
+                StickyFigure stickyFigure = this.gameObject.AddComponent<StickyFigure>();
+
+                stickyFigure.SetComponents(stickyFigureConfig);
+            }
+
+            Debug.Log($"This {this.gameObject.name} is StickyFigure");
+
+            return _specialConfig.SpecialFigureType;
+        }
+
+        Debug.Log($"This {this.gameObject.name} is BaseFigure");
+
+        return FigureType.BaseFigure;
     }
 
 }

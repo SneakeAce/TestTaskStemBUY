@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: FigureSpawnerConfig
   m_EditorClassIdentifier: 
   <BaseFigureConfigs>k__BackingField:
-  - {fileID: 11400000, guid: 715748678cb229544b937833a2c238fb, type: 2}
   - {fileID: 11400000, guid: 6e50c2503fd8cfc4abaee09257df5ee5, type: 2}
   - {fileID: 11400000, guid: db8d0ce6cab53be4697e957be0e6ce64, type: 2}
   - {fileID: 11400000, guid: ba752774cf78bfc4493ca368cb7ebdda, type: 2}
   - {fileID: 11400000, guid: 29dc166817b89db408b2244a47735a7b, type: 2}
   - {fileID: 11400000, guid: 256ac12295668db41adc29dcc42a7b99, type: 2}
   - {fileID: 11400000, guid: 2b202acd1bf41864baaef1f2b8508dd6, type: 2}
+  <SpecialFigureConfigs>k__BackingField:
+  - {fileID: 11400000, guid: 53659250598a0a0438edca456a191713, type: 2}
+  - {fileID: 11400000, guid: 504cb6c25918c2f4483e88af14609b61, type: 2}
+  - {fileID: 11400000, guid: def0ef9a0c416f74f977e02e63bd8485, type: 2}
   <FigureSameTypeCount>k__BackingField: 3
   <DelayBetweenSpawn>k__BackingField: 0.25
+  <SpawnCoordinates>k__BackingField: {x: 0, y: 5, z: 0}

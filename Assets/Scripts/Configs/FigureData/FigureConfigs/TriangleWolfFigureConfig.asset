@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TriangleWolfFigureConfig
   m_EditorClassIdentifier: 
   <Prefab>k__BackingField: {fileID: 3706403314897276374, guid: 68aa4bc91e2698144a4c8e65f8a3932b, type: 3}
+  <AvailableFigureType>k__BackingField: -1
   <AnimalType>k__BackingField: 32
   <ShapeType>k__BackingField: 16
   <Color>k__BackingField: {r: 0.19607843, g: 0.23529412, b: 0.8627451, a: 1}

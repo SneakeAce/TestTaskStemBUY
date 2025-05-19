@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SquareChickenFigureConfig
   m_EditorClassIdentifier: 
   <Prefab>k__BackingField: {fileID: 6564662044967580006, guid: eed68f318ca0c7941b4180e1f419c985, type: 3}
+  <AvailableFigureType>k__BackingField: -1
   <AnimalType>k__BackingField: 4
   <ShapeType>k__BackingField: 2
   <Color>k__BackingField: {r: 1, g: 0.73333335, b: 0, a: 1}

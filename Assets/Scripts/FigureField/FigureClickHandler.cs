@@ -32,6 +32,17 @@ public class FigureClickHandler
         {
             Figure figure = hit.collider.GetComponent<Figure>();
 
+            if (figure.IsStuck)
+                figure.IsStuck = false;
+
+            if (figure.FigureType == FigureType.StickyFigure)
+            {
+                StickyFigure stickyFigure = hit.collider.GetComponent<StickyFigure>();
+
+                stickyFigure.SpringJoint.enabled = false;
+                stickyFigure.enabled = false;
+            }
+
             if (figure == null)
                 return;
 
