@@ -15,5 +15,5 @@ MonoBehaviour:
   <SpecialFigureType>k__BackingField: 4
   <StuckFigureCount>k__BackingField: 1
   <DistanceToStuckFigure>k__BackingField: 0.3
-  <SmoothingRatio>k__BackingField: 0.2
-  <Frequency>k__BackingField: 1.3
+  <SmoothingRatio>k__BackingField: 0.3
+  <Frequency>k__BackingField: 1

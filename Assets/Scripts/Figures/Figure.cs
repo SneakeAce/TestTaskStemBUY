@@ -79,6 +79,7 @@ public class Figure : MonoBehaviour
             if (_specialConfig is HeavyFigureConfig heavyFigureConfig)
             {
                 _specialConfig = heavyFigureConfig;
+
                 _rigidbody.mass = heavyFigureConfig.Mass;
                 _rigidbody.gravityScale = heavyFigureConfig.GravityScale;
             }

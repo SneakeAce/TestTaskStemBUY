@@ -4,9 +4,12 @@ using Zenject;
 public class UIInstaller : MonoInstaller
 {
     [SerializeField] private Camera _camera;
+
     [SerializeField] private ActionBar _bar;
-    [SerializeField] private ReassemblyFigureButton _reassemblyFigureButtonPrefab;
+
     [SerializeField] private ResultScreenController _resultScreen;
+
+    [SerializeField] private ReassemblyFigureButton _reassemblyFigureButtonPrefab;
 
     public override void InstallBindings()
     {
@@ -16,7 +19,7 @@ public class UIInstaller : MonoInstaller
 
         BindActionBar();
 
-        BindReassemblyFigureButton();
+        BindButtons();
     }
 
     private void BindCamera()
@@ -28,8 +31,11 @@ public class UIInstaller : MonoInstaller
 
     private void BindActionBar() => Container.Bind<ActionBar>().FromInstance(_bar).AsSingle();
 
-    private void BindReassemblyFigureButton() => Container.Bind<ReassemblyFigureButton>().FromInstance(_reassemblyFigureButtonPrefab).AsSingle();
-    
     private void BindResultScreenController() => Container.Bind<ResultScreenController>().FromInstance(_resultScreen).AsSingle();
+
+    private void BindButtons()
+    {
+        Container.Bind<ReassemblyFigureButton>().FromInstance(_reassemblyFigureButtonPrefab).AsSingle();
+    }
     
 }
