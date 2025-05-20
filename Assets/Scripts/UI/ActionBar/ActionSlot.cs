@@ -21,6 +21,8 @@ public class ActionSlot : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("ActionSlot / Awake");
+
         _isEmptySlot = true;
         _rectTransformSlot = GetComponent<RectTransform>();
     }

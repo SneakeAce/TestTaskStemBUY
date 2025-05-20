@@ -54,10 +54,6 @@ public class StickyFigure : MonoBehaviour
         _springJoint.distance = _config.DistanceToStuckFigure; // настраивай под размер фигур
         _springJoint.dampingRatio = _config.SmoothingRatio; // сглаживание
         _springJoint.frequency = _config.Frequency; // сила пружины
-
-        
-
-        Debug.Log($"{gameObject.name} прилип к {otherFigure.gameObject.name} и теперь тянет его");
     }
 
     private void OnDetachOtherFigure()

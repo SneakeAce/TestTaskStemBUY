@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public abstract class Figure : MonoBehaviour
+public class Figure : MonoBehaviour
 {
     protected const float DefaultRotationValue = 0;
 
@@ -83,16 +83,10 @@ public abstract class Figure : MonoBehaviour
                 _rigidbody.gravityScale = heavyFigureConfig.GravityScale;
             }
 
-            Debug.Log($"This {this.gameObject.name} is HeavyFigure");
-
             return _specialConfig.SpecialFigureType;
         }
         else if (_specialConfig.SpecialFigureType == FigureType.FrozenFigure)
         {
-            //
-            // Доделать
-
-            Debug.Log($"This {this.gameObject.name} is FrozenFigure");
 
             return _specialConfig.SpecialFigureType;
         }
@@ -107,12 +101,8 @@ public abstract class Figure : MonoBehaviour
                 stickyFigure.SetComponents(stickyFigureConfig);
             }
 
-            Debug.Log($"This {this.gameObject.name} is StickyFigure");
-
             return _specialConfig.SpecialFigureType;
         }
-
-        Debug.Log($"This {this.gameObject.name} is BaseFigure");
 
         return FigureType.BaseFigure;
     }
