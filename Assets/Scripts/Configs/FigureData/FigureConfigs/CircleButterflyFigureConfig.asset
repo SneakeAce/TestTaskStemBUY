@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: CircleButterflyFigureConfig
   m_EditorClassIdentifier: 
   <Prefab>k__BackingField: {fileID: 4730780751714468329, guid: 2e282ece14a3fcc4898c11ee6103167e, type: 3}
+  <AvailableFigureType>k__BackingField: -1
   <AnimalType>k__BackingField: 16
   <ShapeType>k__BackingField: 4
   <Color>k__BackingField: {r: 0.7294118, g: 1, b: 0, a: 1}

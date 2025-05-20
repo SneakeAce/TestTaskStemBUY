@@ -20,17 +20,19 @@ public class ActionBar : MonoBehaviour
     private void Start()
     {
         _emptyActionSlots = new List<ActionSlot>(GetComponentsInChildren<ActionSlot>());
+        Debug.Log($"Start / _emptyActionSlots = {_emptyActionSlots.Count}");
+
         _filledSlots = new List<ActionSlot>();
     }
 
-    public void SetFigureToSlot(Figure figure)
+    public void SetFigureToSlot(Figure figure, Camera camera)
     {
         ActionSlot emptySlot = GetEmptySlot();
 
         if (emptySlot == null)
             return;
 
-        emptySlot.SetFigure(figure);
+        emptySlot.SetFigure(figure, camera);
 
         figure.MoveToSlot(emptySlot.CurrentPositionSlot);
 
@@ -92,9 +94,7 @@ public class ActionBar : MonoBehaviour
 
         if (matchThreeSlots.Count >= MatchingFigureToDestroy)
         {
-            _figureFieldController.RemoveSameTypeFigureFromField(matchThreeSlots[StartIndex]
-                .CurrentFigure
-                .FigureConfig);
+            _figureFieldController.RemoveSameTypeFigureFromField(matchThreeSlots[StartIndex].CurrentFigure.FigureConfig);
 
             for (int i = 0; i < matchThreeSlots.Count; i++)
             {
@@ -103,9 +103,6 @@ public class ActionBar : MonoBehaviour
                 _filledSlots.Remove(matchThreeSlots[i]);
 
                 _emptyActionSlots.Add(matchThreeSlots[i]);
-
-
-                // Удаляется конфиг с этими фигурами в FigureSpawner и FigureFieldController. 
             }
 
         }

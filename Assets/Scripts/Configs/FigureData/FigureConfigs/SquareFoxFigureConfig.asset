@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SquareFoxFigureConfig
   m_EditorClassIdentifier: 
   <Prefab>k__BackingField: {fileID: 3297447641712925938, guid: 59a60399fbf48784384e61b43ef3864b, type: 3}
+  <AvailableFigureType>k__BackingField: -1
   <AnimalType>k__BackingField: 64
   <ShapeType>k__BackingField: 2
   <Color>k__BackingField: {r: 0.8627451, g: 0.47058824, b: 0.50980395, a: 1}
